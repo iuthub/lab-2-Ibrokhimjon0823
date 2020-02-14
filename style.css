@@ -31,8 +31,18 @@ box-shadow: 0 0 10px rgb(229,61,17);
 a {
 	color: red;
 	font-weight: bold;
+	text-decoration: none;
+
 	
 }
 .last {
 	font-weight: bold;
+}
+p::first-letter{
+	font-size: xx-large;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
 }
